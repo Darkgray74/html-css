@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(24, 97, 126);
+    font-size: 2em;
+    /* Medidas Absolutas
+       cm, mm, in, px, pt, pc  (in = polegada)     
+    
+       Medidas Relativas
+       em, ex, rem, vw, vh, %
+       16px geralmente = 1em
+       recomendação oficial use px ou em no font size /ex: 1px ou 1em /OBS: 1em é igual a 16px que é o tamanho padrão.     
+    */
+        
+    } 
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(33, 136, 161);
+    font-size: 1.5em;
+    font-weight: normal;
+    text-decoration: underline;
+    /*opções de peso de fonte == lighter, normal, bold, bolder*/
+}
+p {
+    /*shorthand font - usando menos comandos*/
+
+    /*precedencia == font-style, font-weight, font-size, font-family*/
+
+    font: italic bold 1em Arial, Helvetica, sans-serif;
+
+}

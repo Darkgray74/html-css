@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {
+            background-color:#d3d3d3 ;
+            height: 300px;
+            width: 300px;
+            border:10px solid #2f4f4f;
+            
+            padding:10px;
+            /*
+            ShortHand padding: top 10px, right 10px, bottom 10px, left 10px
+            OBS: quando add mais de um valor como 10px 20px ambos os lados width e height ficam iguais em  seus respectivos lados, ou seja, ambos os lados de width vão ter 10px e ambos os lados de height vão ter 20px.  
+            */
+
+            margin:10px;
+            /*
+            The same shorthand here!
+            */
+
+            outline:5px dashed #fa8072;
+            /*
+            The same shorthand here!
+            */
+        }
+
+        a {
+            border:10px solid #ff0000;
+            /*
+            The same shorthand here, too
+            */
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level,mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>
